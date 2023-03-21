@@ -1,0 +1,55 @@
+@media (max-width:1680px) {
+    header{
+        width:1350px;
+    }
+    section{
+        width: 1350px;
+    }
+    .sessao img{
+        width: 100% - 50%;
+        margin: 10%;
+    }
+    .sessao .bloco{
+        margin: 10%;
+    }
+    .sessao{
+        padding: 0;
+    }
+    footer{
+        width:1350px;
+    }
+}
+
+@media (max-width:1024px) {
+    header{
+        width: 1010px;
+    }
+    h1{
+        font-size:50px ;
+        text-shadow: 5px 5px 5px black;
+    }
+    .logo{
+        width: 125px;
+        height: 100px;
+    }
+    section{
+        width: 1010px;
+    }
+    .sessao img{
+        width: 500px ;
+        
+    }
+    .sessao .bloco{
+        margin: 0;
+    }
+    .sessao {
+        
+        width: 100%;
+    }
+    footer{
+        width: 1010px;
+    }
+}
+
+
+

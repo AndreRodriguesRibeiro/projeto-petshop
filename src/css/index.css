@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+img{
+    height: 350px;
+}
+
+h1{
+    font-family: "Roboto";
+    font-size: 200px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #ffffff;
+    text-shadow: 15px 15px 15px black;
+}
+
+h2{
+    color: #037ba7;
+    font-family: Roboto;
+    font-size: 50px;
+    margin: 10px;
+}
+p{
+    font-family: "Roboto";
+}
+
+a{
+    font-family: "Roboto";
+    text-decoration: none;
+    color: #ffffff
+}
+
+
+span{
+    font-family: "Roboto";
+}
+
+ul{
+    list-style: none;
+    background-color: #037ba7;
+    height: 300px;
+    width: 150px;
+    padding: 15px;
+    line-height: 25px;
+    right: 20px;
+    margin: 0;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+}
+
+.open{
+    display: flex;
+}
+
+ol{
+    color: #13AEE7;
+}
+header{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(to right ,#00bbff, #13AEE7);
+}
+
+.logo{
+    height: 250px;
+}
+
+.btn-nav{
+    padding: 5px;
+    background: none;
+    border: none;
+    margin: 0;
+    position: relative;
+}
+.btn-nav :hover{
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #037ba7;
+}
+   
+.sessao{
+    margin-top: 20px;
+    padding: 20px;
+    width: 200vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+.sessao.banho{
+    border: solid 5px #13AEE7;
+}
+
+.sessao.tosa{
+    background-color: #13AEE7;
+}
+   
+.sessao.pre{
+    border: solid 5px #13AEE7;
+}
+
+.sessao.vet{
+    background-color: #13AEE7;
+}
+
+section{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+footer{
+    background-image: linear-gradient(to right ,#00bbff, #13AEE7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
