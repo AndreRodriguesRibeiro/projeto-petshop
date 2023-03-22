@@ -51,5 +51,45 @@
     }
 }
 
+@media (max-width:500px) {
+
+    header{
+        width: 500px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+    .logo{
+        width: 75px;
+        height: 75px;
+        padding: 0;
+    }
+    section{
+        width: 500px;
+    }
+    
+    .sessao{
+    width: 350px;
+    }
+
+     .sessao img {
+        width: 150px;
+        height: 10%;
+    }
+
+    .sessao .bloco h2{
+        font-size: 20px;
+    }
+
+    .sessao .bloco p{
+        font-size: 10px;
+    }
+
+     footer{
+        width: 500px;
+     }
+    
+}
 
 
