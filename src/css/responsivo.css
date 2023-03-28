@@ -51,10 +51,10 @@
     }
 }
 
-@media (max-width:376px) {
+@media (max-width:500px) {
 
     header{
-        width: 376px;
+        width: 500px;
     }
 
     h1{
@@ -66,7 +66,7 @@
         padding: 0;
     }
     section{
-        width: 376px;
+        width: 500px;
     }
     
     .sessao{
@@ -91,5 +91,6 @@
      }
     
 }
+
 
 
