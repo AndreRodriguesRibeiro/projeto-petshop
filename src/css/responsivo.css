@@ -136,7 +136,7 @@
 @media (max-width:320px) {
 
     header{
-        width: 320px;
+        width: 300px;
     }
 
     h1{
@@ -148,11 +148,12 @@
         padding: 0;
     }
     section{
-        width: 320px;
+        width: 300px;
+        padding:15px
     }
     
     .sessao{
-    width: 280px;
+    width: 250px;
     }
 
      .sessao img {
@@ -169,7 +170,7 @@
     }
 
      footer{
-        width: 320px;
+        width: 300px;
      }
     
 }
