@@ -92,5 +92,85 @@
     
 }
 
+@media (max-width:376px) {
 
+    header{
+        width: 376px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+    .logo{
+        width: 75px;
+        height: 75px;
+        padding: 0;
+    }
+    section{
+        width: 376px;
+    }
+    
+    .sessao{
+    width: 350px;
+    }
+
+     .sessao img {
+        width: 150px;
+        height: 10%;
+    }
+
+    .sessao .bloco h2{
+        font-size: 20px;
+    }
+
+    .sessao .bloco p{
+        font-size: 10px;
+    }
+
+     footer{
+        width: 376px;
+     }
+    
+}
+
+@media (max-width:320px) {
+
+    header{
+        width: 320px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+    .logo{
+        width: 75px;
+        height: 75px;
+        padding: 0;
+    }
+    section{
+        width: 320px;
+    }
+    
+    .sessao{
+    width: 300px;
+    }
+
+     .sessao img {
+        width: 150px;
+        height: 10%;
+    }
+
+    .sessao .bloco h2{
+        font-size: 20px;
+    }
+
+    .sessao .bloco p{
+        font-size: 10px;
+    }
+
+     footer{
+        width: 320px;
+     }
+    
+}
 
